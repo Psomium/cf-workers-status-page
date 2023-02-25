@@ -39,6 +39,14 @@ monitors:
     followRedirect: false
     linkable: false
     
+  - id: https://psomium.com/Blog/
+    name: Blog
+    url: 'https://psomium.com/Blog/'
+    method: GET
+    expectStatus: 200
+    followRedirect: false
+    linkable: true
+    
   - id: https://psomium.com/Product/Item/KI0VZNT7/Connect
     name: API
     url: 'https://psomium.com/Product/Item/KI0VZNT7/Connect?Test=true'
